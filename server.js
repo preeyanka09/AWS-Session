@@ -3,7 +3,7 @@ const app = express();
 const { resolve } = require("path");
 const port = process.env.PORT || 3000;
 
-// importing the dotenv module to use environment variables:
+// importing the dotenv module to use environment variables
 require("dotenv").config();
 
 const api_key = process.env.SECRET_KEY;
